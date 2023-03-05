@@ -27,12 +27,5 @@ var numbers = [10, 6, 8, 9, 3];
 numbers.sort(function (a, b) {
     return (a > b ? -1 : 1);
 });
-// console.log("Mang sau khi sap lai: ");
-// console.log(numbers);
-// // Lấy ra phần tử nhỏ nhất
-// numbers.pop();
-// console.log("So be nhat trong mang la: ");
-// console.log(numbers);
-// var min = Math.min(...numbers); // sử dụng toán tử spread để truyền mảng vào phương thức Math.min()
 var min = numbers.pop();
 console.log("Giá trị nhỏ nhất trong mảng là: " + min); // in ra giá trị nhỏ nhất
